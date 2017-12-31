@@ -1,0 +1,108 @@
+<svg>
+  <symbol id="tile-item" focusable="false" pointer-events="visible" system-events="all">
+
+    <use id="btn" href="#square-button" y="5" height="70" fill="fb-light-gray">
+      <set href="#text" attributeName="text-buffer" to="Button" />
+    </use>
+
+    <rect id="tile-divider-bottom" height="2" />
+  </symbol>
+
+  <textarea id="status" class="status"></textarea>
+
+  <use id="itemList" href="#tile-list" height="100%" width="100%">
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+
+    <use id="item-0" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-1" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-2" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-3" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-4" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-5" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-6" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-7" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-8" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-9" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-10" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-11" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-12" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-13" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-14" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-15" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-16" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-17" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-18" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-19" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-20" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-21" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-22" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-23" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-24" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-25" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-26" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-27" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-28" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+    <use id="item-29" href="#tile-list-item" class="item">
+      <use href="#tile-item" />
+    </use>
+  </use>
+</svg>

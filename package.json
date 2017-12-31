@@ -1,0 +1,17 @@
+{
+  "fitbit": {
+    "appUUID": "70d99214-8b4d-4fc0-a5b0-4e9edbed5045",
+    "appType": "app",
+    "appDisplayName": "openHAB",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ff5722",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "i18n": {
+      "en": {
+        "name": "openHAB"
+      }
+    }
+  }
+}
