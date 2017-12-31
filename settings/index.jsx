@@ -12,7 +12,7 @@ function mySettings(props) {
           requestTokenUrl="https://XXXXX.com/oauth2/token"
           clientId="XXXXX"
           clientSecret="XXXXX"
-          scope="item"
+          scope="XXXXX"
         />
       </Section>
     </Page>
