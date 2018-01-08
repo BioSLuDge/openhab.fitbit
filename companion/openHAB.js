@@ -22,6 +22,7 @@ openHABAPI.prototype.setItemState = function(item, state) {
     fetch(myUrl, {
       body: state,
       method: "POST",
+      mode: 'no_cors',
       headers: {
         "Authorization": `Bearer ${self.token}`
       }
@@ -50,6 +51,7 @@ openHABAPI.prototype.getItems = function() {
 
     fetch(myUrl, {
       method: "GET",
+      mode: 'no_cors',
       headers: {
         "Authorization": `Bearer ${self.token}`
       }
@@ -106,6 +108,7 @@ openHABAPI.prototype.getItem = function(item) {
     
     fetch(myUrl, {
       method: "GET",
+      mode: 'no_cors',
       headers: {
         "Authorization": `Bearer ${self.token}`
       }
