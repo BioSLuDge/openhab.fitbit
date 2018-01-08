@@ -10,7 +10,7 @@ export function openHABAPI(url) {
     }
   }  
 
-  this.url = "https://openhab.tolboe.com";
+  this.url = "https://XXXXX";
 };
 
 openHABAPI.prototype.setItemState = function(item, state) {
